@@ -56,7 +56,10 @@ docker inspect <repoName:tagName>                   --> To inspect the configura
 
 Volume mounting uisng -v:
  docker run -p 8081:8080 -p 50000:50000 -v /var/jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock --name          jenkins -d jenkins-docker
- 
+
+How to build docker images of  jenkins:
+https://www.katacoda.com/courses/jenkins/build-docker-images
+
 Steps to install Docker-compose using Shell script:
 
 curl -L https://github.com/docker/compose/releases/download/1.24.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
