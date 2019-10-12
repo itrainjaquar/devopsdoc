@@ -1,0 +1,57 @@
+ Container Orchestration Engine(COE)
+1. K8s
+2.Docker Swarm
+3.Apache Mesos/Marathon.
+
+Kubernetes was initially developed by Google, later it handed over to CNCF
+CKAD
+CKA
+
+Kubernetes(K8S)
+	Deployment
+	High Availability
+	Autoscaling
+	Networking and security
+	Storage
+
+K8S Architecture:
+  Master-Node( control plane)
+  Worker-node( Agents or slaves)-any number of slaves or agents
+
+Node- Minions
+Master as control plan:
+  API Server
+  Scheduler
+  Controller
+  ETCD
+  Container Runtime
+
+Node(slaves or minions)
+ Kubelet
+ Container Runtime
+ Proxy
+
+Load Balancer:
+F5
+Route53
+
+Service
+  IPV4-1
+  IPV4-2
+  IPV4-3
+  IPV4-4
+
+Kubernetes resources:
+ Namespace
+ Deployment
+ Pod
+ Service
+ ReplicationController
+ ConfigMap
+ PersistantVolumeClaim
+ PersistantVolume
+ Secrets
+
+  
+
+
