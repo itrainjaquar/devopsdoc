@@ -1,0 +1,30 @@
+Version of minikube:
+minikube version
+
+minikube start ---> start the cluster of single node.
+
+kubectl --> is the client to communicate to api server.
+
+Kubectl commands:
+
+kubectl version
+kubectl cluster-info
+kubectl get nodes or kubectl get no
+kubectl get namespace or kubectl get ns
+---Create Namespace-----
+kubectl create namespace itrain-jaquar
+--------------------------------------
+kubectl get deployments
+kubectl get pods
+kubectl get services
+
+---------Kubernetes configuration------
+
+kubectl config vew
+kubectl config set-context itrain-jaquar --cluster=minikube --user=minikube --namespace=itrain-jaquar
+kubectl config use-context itrain-jaquar
+kubectl config current-context
+
+
+
+
