@@ -25,6 +25,12 @@ kubectl config set-context itrain-jaquar --cluster=minikube --user=minikube --na
 kubectl config use-context itrain-jaquar
 kubectl config current-context
 
+---Deployments-----
+kubectl create -f https://raw.githubusercontent.com/itrainpadman/k8s_resouces/master/nginx-deployment.yaml
+kubectl delete -f https://raw.githubusercontent.com/itrainpadman/k8s_resouces/master/nginx-deployment.yaml
+
+-----Create Pods-----
+
 
 
 
